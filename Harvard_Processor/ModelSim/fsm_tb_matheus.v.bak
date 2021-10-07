@@ -1,0 +1,96 @@
+`timescale 1ns/1ns
+module fsm_tb;
+
+// Parte estrutural
+// Definir entradas e saídas, tipos, e instanciar os módulos
+always @ (ac_wr, mbr_re_m) validando_mbr;
+
+always @ (ir_re)
+	begin
+		if(compara_mem_i==1) 
+			$display("Comparacao entre IR e MEM OK");
+		else 
+			$display("Deu ruim na comparacao entre IR e MEM"); 
+			$stop;
+	end
+	
+always @ (mar_wr)
+	begin
+		if(compara_mar_ir==1) 
+			$display("Comparacao entre MAR e IR OK");
+		else 
+			$display("Deu ruim na comparacao entre MAR e IR"); 
+			$stop;
+	end
+always @ (pc_wr)
+	begin
+		if(checando_jump==1) 
+			$display("PC recebeu jump de boa");
+		else 
+			$display("Deu ruim no PC"); 
+			$stop;
+	end
+	
+function compara_mem_i;
+	input out_ir, pc;
+	wire [15:0] out_ir;
+	wire [11:0] pc;
+	begin
+		compara_mem_i = 1;
+		if (mem_dados[pc] != out_ir)
+		compara_mem_i = 0;
+	end
+endfunction
+
+function compara_mar_ir;
+	input out_ir, mar;
+	wire [15:0] out_ir;
+	wire [11:0] mar;
+	begin
+		compara_mar_ir = 1;
+		if (mar != out_ir[11:0])
+		compara_mar_ir = 0;
+	end
+endfunction
+
+function checando_jump;
+	input pc, out_ir;
+	wire [15:0] out_ir;
+	wire [11:0] pc;
+	begin
+		checando_jump = 1;
+		if (pc != out_ir[11:0])
+		checando_jump = 0;
+	end
+endfunction
+
+task validando_mbr;
+	input opcode, ac, mbr[saida pra ula], mem_dados, mbr[registrador];
+	begin
+		case (opcode)
+			lda :
+				begin
+					if (ac==mbr)
+						$display("acumulador recebeu mbr");
+					else 
+						$display("deu pau no load"); 
+						$stop;
+				end
+			sta:
+				begin
+					if (mem_dados[mar]==ac)
+						$display("Store funcionando");
+					else 
+						$display("Store deu pau"); 
+						$stop;
+				end
+			(add || sub || mul || div || andp || orp)
+				begin
+					if (mbr[da ula]==mbr[reg])
+						$display("valor foi pra ula");
+					else 
+						$display("ula pegou valor errado"); 
+						$stop;
+				end
+		endcase
+	end

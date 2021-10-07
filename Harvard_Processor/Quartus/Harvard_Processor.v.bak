@@ -1,0 +1,184 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Intel and sold by Intel or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// PROGRAM		"Quartus Prime"
+// VERSION		"Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition"
+// CREATED		"Sat Jul 28 20:26:21 2018"
+
+module Harvard_Processor(
+	pin_name7,
+	pin_name8,
+	out_md,
+	out_mi,
+	pin_name1,
+	pin_name3,
+	pin_name6,
+	mar,
+	mbr,
+	pc
+);
+
+
+input wire	pin_name7;
+input wire	pin_name8;
+input wire	[15:0] out_md;
+input wire	[15:0] out_mi;
+output wire	pin_name1;
+output wire	pin_name3;
+output wire	pin_name6;
+output wire	[11:0] mar;
+output wire	[15:0] mbr;
+output wire	[11:0] pc;
+
+wire	gdfx_temp0;
+wire	SYNTHESIZED_WIRE_0;
+wire	SYNTHESIZED_WIRE_1;
+wire	SYNTHESIZED_WIRE_2;
+wire	SYNTHESIZED_WIRE_3;
+wire	SYNTHESIZED_WIRE_4;
+wire	SYNTHESIZED_WIRE_5;
+wire	SYNTHESIZED_WIRE_6;
+wire	SYNTHESIZED_WIRE_7;
+wire	SYNTHESIZED_WIRE_8;
+wire	SYNTHESIZED_WIRE_9;
+wire	SYNTHESIZED_WIRE_10;
+wire	SYNTHESIZED_WIRE_11;
+wire	SYNTHESIZED_WIRE_12;
+wire	[15:0] SYNTHESIZED_WIRE_13;
+wire	[15:0] SYNTHESIZED_WIRE_14;
+wire	[3:0] SYNTHESIZED_WIRE_15;
+
+assign	mbr = SYNTHESIZED_WIRE_14;
+
+
+
+
+processador_fsm	b2v_inst(
+	.flagz(SYNTHESIZED_WIRE_0),
+	.flagn(SYNTHESIZED_WIRE_1),
+	.clock(pin_name7),
+	.reset(pin_name8),
+	
+	.pc_inicio(SYNTHESIZED_WIRE_3),
+	.pc_inc(SYNTHESIZED_WIRE_4),
+	.pc_wr(SYNTHESIZED_WIRE_2),
+	.ir_wr(SYNTHESIZED_WIRE_6),
+	.ir_re(SYNTHESIZED_WIRE_5),
+	.mar_wr(gdfx_temp0),
+	.clk_md(pin_name3),
+	.clk_mi(pin_name1),
+	.mbr_wr_m(SYNTHESIZED_WIRE_11),
+	.mbr_wr_b(SYNTHESIZED_WIRE_10),
+	.mbr_re_b(SYNTHESIZED_WIRE_9),
+	.ac_wr(SYNTHESIZED_WIRE_7),
+	.ac_re(SYNTHESIZED_WIRE_8),
+	.ula_re(SYNTHESIZED_WIRE_12),
+	.wren(gdfx_temp0),
+	.ula_sel(SYNTHESIZED_WIRE_15));
+	defparam	b2v_inst.add = 4'b0010;
+	defparam	b2v_inst.andp = 4'b0110;
+	defparam	b2v_inst.dec_opcode_1 = 5'b00010;
+	defparam	b2v_inst.dec_opcode_2 = 5'b00011;
+	defparam	b2v_inst.div = 4'b0101;
+	defparam	b2v_inst.inicio = 5'b00000;
+	defparam	b2v_inst.jmp = 4'b1001;
+	defparam	b2v_inst.jn = 4'b1010;
+	defparam	b2v_inst.jump = 5'b10100;
+	defparam	b2v_inst.jz = 4'b1011;
+	defparam	b2v_inst.lda = 4'b0000;
+	defparam	b2v_inst.ler_ir = 5'b00001;
+	defparam	b2v_inst.load_1 = 5'b00100;
+	defparam	b2v_inst.load_2 = 5'b00101;
+	defparam	b2v_inst.load_3 = 5'b00110;
+	defparam	b2v_inst.load_4 = 5'b00111;
+	defparam	b2v_inst.load_5 = 5'b01000;
+	defparam	b2v_inst.mul = 4'b0100;
+	defparam	b2v_inst.nop = 4'b1100;
+	defparam	b2v_inst.notp = 4'b1000;
+	defparam	b2v_inst.orp = 4'b0111;
+	defparam	b2v_inst.pc_incre = 5'b10101;
+	defparam	b2v_inst.sta = 4'b0001;
+	defparam	b2v_inst.store_1 = 5'b01001;
+	defparam	b2v_inst.store_2 = 5'b01010;
+	defparam	b2v_inst.store_3 = 5'b01011;
+	defparam	b2v_inst.store_4 = 5'b01100;
+	defparam	b2v_inst.store_5 = 5'b01101;
+	defparam	b2v_inst.sub = 4'b0011;
+	defparam	b2v_inst.ula_op_1 = 5'b01110;
+	defparam	b2v_inst.ula_op_2 = 5'b01111;
+	defparam	b2v_inst.ula_op_3 = 5'b10000;
+	defparam	b2v_inst.ula_op_4 = 5'b10001;
+	defparam	b2v_inst.ula_op_5 = 5'b10010;
+	defparam	b2v_inst.ula_op_6 = 5'b10011;
+
+
+pc	b2v_inst1(
+	.pc_wr(SYNTHESIZED_WIRE_2),
+	.pc_inicio(SYNTHESIZED_WIRE_3),
+	.pc_inc(SYNTHESIZED_WIRE_4),
+	
+	.pc(pc));
+
+
+ir	b2v_inst2(
+	.ir_re(SYNTHESIZED_WIRE_5),
+	.ir_wr(SYNTHESIZED_WIRE_6),
+	.out_mem_instrucao(out_mi)
+	);
+
+
+ac	b2v_inst3(
+	.ac_re(SYNTHESIZED_WIRE_7),
+	.ac_wr(SYNTHESIZED_WIRE_8),
+	
+	.ac(SYNTHESIZED_WIRE_13)
+	);
+
+
+mbr	b2v_inst4(
+	.mbr_re_b(SYNTHESIZED_WIRE_9),
+	.mbr_wr_b(SYNTHESIZED_WIRE_10),
+	.mbr_wr_m(SYNTHESIZED_WIRE_11),
+	
+	.out_mem_dados(out_md),
+	.mbr(SYNTHESIZED_WIRE_14)
+	);
+
+
+ULA	b2v_inst5(
+	.ula_re(SYNTHESIZED_WIRE_12),
+	.ac(SYNTHESIZED_WIRE_13),
+	.mbr(SYNTHESIZED_WIRE_14),
+	.ula_sel(SYNTHESIZED_WIRE_15),
+	.flagz(SYNTHESIZED_WIRE_0),
+	.flagn(SYNTHESIZED_WIRE_1)
+	);
+	defparam	b2v_inst5.add = 4'b0010;
+	defparam	b2v_inst5.andp = 4'b0110;
+	defparam	b2v_inst5.div = 4'b0101;
+	defparam	b2v_inst5.mul = 4'b0100;
+	defparam	b2v_inst5.notp = 4'b1000;
+	defparam	b2v_inst5.orp = 4'b0111;
+	defparam	b2v_inst5.sub = 4'b0011;
+
+
+mar	b2v_inst6(
+	.mar_wr(gdfx_temp0),
+	
+	.mar(mar));
+
+assign	pin_name6 = gdfx_temp0;
+
+endmodule

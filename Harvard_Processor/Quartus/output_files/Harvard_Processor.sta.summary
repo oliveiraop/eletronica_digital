@@ -1,0 +1,353 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'processador_fsm:b2v_inst|est_a.ula_op_4'
+Slack : -53.014
+TNS   : -841.550
+
+Type  : Slow 1200mV 85C Model Setup 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : -8.915
+TNS   : -103.319
+
+Type  : Slow 1200mV 85C Model Setup 'processador_fsm:b2v_inst|est_a.dec_opcode_2'
+Slack : -8.850
+TNS   : -32.050
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -7.926
+TNS   : -70.973
+
+Type  : Slow 1200mV 85C Model Setup 'processador_fsm:b2v_inst|est_a.load_1'
+Slack : -6.648
+TNS   : -62.775
+
+Type  : Slow 1200mV 85C Model Setup 'processador_fsm:b2v_inst|est_a.load_3'
+Slack : -6.444
+TNS   : -90.795
+
+Type  : Slow 1200mV 85C Model Setup 'processador_fsm:b2v_inst|est_a.jump'
+Slack : -6.246
+TNS   : -70.343
+
+Type  : Slow 1200mV 85C Model Setup 'processador_fsm:b2v_inst|est_a.store_2'
+Slack : -6.095
+TNS   : -88.059
+
+Type  : Slow 1200mV 85C Model Hold 'processador_fsm:b2v_inst|est_a.load_1'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : 0.263
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'processador_fsm:b2v_inst|est_a.load_3'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'processador_fsm:b2v_inst|est_a.store_2'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'processador_fsm:b2v_inst|est_a.ula_op_4'
+Slack : 0.630
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'processador_fsm:b2v_inst|est_a.jump'
+Slack : 1.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'processador_fsm:b2v_inst|est_a.dec_opcode_2'
+Slack : 3.026
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : -2.182
+TNS   : -24.254
+
+Type  : Slow 1200mV 85C Model Recovery 'processador_fsm:b2v_inst|est_a.jump'
+Slack : -2.085
+TNS   : -20.835
+
+Type  : Slow 1200mV 85C Model Removal 'processador_fsm:b2v_inst|est_a.jump'
+Slack : 0.711
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : 1.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -31.270
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : -1.285
+TNS   : -15.420
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.ula_op_4'
+Slack : -0.486
+TNS   : -23.115
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.load_1'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.load_3'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.jump'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.dec_opcode_2'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.store_2'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.dec_opcode_1'
+Slack : 0.476
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.ula_op_4'
+Slack : -48.155
+TNS   : -764.594
+
+Type  : Slow 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.dec_opcode_2'
+Slack : -8.004
+TNS   : -28.976
+
+Type  : Slow 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : -7.921
+TNS   : -92.236
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -7.121
+TNS   : -62.487
+
+Type  : Slow 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.load_1'
+Slack : -6.129
+TNS   : -57.434
+
+Type  : Slow 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.load_3'
+Slack : -5.920
+TNS   : -83.029
+
+Type  : Slow 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.jump'
+Slack : -5.729
+TNS   : -64.116
+
+Type  : Slow 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.store_2'
+Slack : -5.606
+TNS   : -80.738
+
+Type  : Slow 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.load_1'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : 0.196
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : 0.252
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.load_3'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.store_2'
+Slack : 0.377
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.ula_op_4'
+Slack : 0.575
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.jump'
+Slack : 0.940
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.dec_opcode_2'
+Slack : 2.703
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'processador_fsm:b2v_inst|est_a.jump'
+Slack : -1.923
+TNS   : -19.094
+
+Type  : Slow 1200mV 0C Model Recovery 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : -1.804
+TNS   : -19.950
+
+Type  : Slow 1200mV 0C Model Removal 'processador_fsm:b2v_inst|est_a.jump'
+Slack : 0.783
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : 1.172
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -31.270
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : -1.285
+TNS   : -15.420
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.ula_op_4'
+Slack : -0.381
+TNS   : -17.928
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.store_2'
+Slack : 0.376
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.load_3'
+Slack : 0.420
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.dec_opcode_1'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.load_1'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.jump'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.dec_opcode_2'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.ula_op_4'
+Slack : -26.066
+TNS   : -411.566
+
+Type  : Fast 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : -4.557
+TNS   : -52.253
+
+Type  : Fast 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.dec_opcode_2'
+Slack : -4.343
+TNS   : -15.524
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -3.988
+TNS   : -31.714
+
+Type  : Fast 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.load_1'
+Slack : -3.154
+TNS   : -28.738
+
+Type  : Fast 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.load_3'
+Slack : -3.013
+TNS   : -41.444
+
+Type  : Fast 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.jump'
+Slack : -2.897
+TNS   : -32.342
+
+Type  : Fast 1200mV 0C Model Setup 'processador_fsm:b2v_inst|est_a.store_2'
+Slack : -2.847
+TNS   : -40.034
+
+Type  : Fast 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.ula_op_4'
+Slack : 0.004
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : 0.024
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.load_1'
+Slack : 0.062
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.load_3'
+Slack : 0.129
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.store_2'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.jump'
+Slack : 0.449
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'processador_fsm:b2v_inst|est_a.dec_opcode_2'
+Slack : 1.625
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : -1.111
+TNS   : -12.284
+
+Type  : Fast 1200mV 0C Model Recovery 'processador_fsm:b2v_inst|est_a.jump'
+Slack : -0.787
+TNS   : -7.074
+
+Type  : Fast 1200mV 0C Model Removal 'processador_fsm:b2v_inst|est_a.jump'
+Slack : 0.503
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : 0.633
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -26.128
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.pc_incre'
+Slack : -1.000
+TNS   : -12.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.ula_op_4'
+Slack : -0.269
+TNS   : -8.115
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.load_1'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.load_3'
+Slack : 0.336
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.store_2'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.jump'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.dec_opcode_1'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'processador_fsm:b2v_inst|est_a.dec_opcode_2'
+Slack : 0.399
+TNS   : 0.000
+
+------------------------------------------------------------

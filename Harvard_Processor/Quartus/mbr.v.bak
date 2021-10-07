@@ -1,0 +1,14 @@
+module mbr (out_mbr_u, out_mbr_b, out_mbr_m, mbr_re_b, mbr_re_m, mbr_wr_b, mbr_wr_m, bus, out_mem_dados);
+	output out_mbr_u, out_mbr_b, out_mbr_m;
+	input mbr_re_b, mbr_re_m, mbr_wr_b, mbr_wr_m, bus, out_mem_dados;
+	reg valor;
+	always @ (*)
+	out_mbr_b=z;
+	begin
+		if (mbr_wr_b) valor = bus;
+		if (mbr_re_b) out_mbr_b = valor;
+		if (mbr_wr_m) valor = out_mem_dados;
+		if (mbr_re_m) out_mbr_m = valor;
+		out_mbr_u = valor;
+	end
+endmodule

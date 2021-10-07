@@ -1,0 +1,15 @@
+module ir (out_ir_op, out_ir_end, ir_re, ir_wr, out_mem_instrucao);
+	output out_ir;
+	input ir_re, ir_wr, out_mem_instrucao;
+	reg valor;
+	always @ (*)
+	out_ir=z;
+	begin
+		if (ir_wr) valor = out_mem_instrucao;
+		if (ir_re) 
+			begin
+				out_ir_op = valor[3:0];
+				out_ir_end = valor[N:4]:
+			end
+	end
+endmodule

@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Harvard_Processor/Quartus/simulation/modelsim
+vULA
+!s110 1532828578
+!i10b 1
+!s100 V3he6jjT@3n>m^=2S:5610
+II:OXV790X2kM=40kBRIT`1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1532828501
+8D:/Harvard_Processor/Quartus/ULA.v
+FD:/Harvard_Processor/Quartus/ULA.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1532828578.000000
+!s107 D:/Harvard_Processor/Quartus/ULA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Harvard_Processor/Quartus|D:/Harvard_Processor/Quartus/ULA.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/Harvard_Processor/Quartus
+tCvgOpt 0
+n@u@l@a

@@ -1,0 +1,8 @@
+Info (10281): Verilog HDL Declaration information at Processador_Completo.v(43): object "pc" differs only in case from object "PC" in the same scope File: D:/Mazinho/Eletronica Digital/Harvard_Processor/Quartus/Processador_Completo.v Line: 43
+Info (10281): Verilog HDL Declaration information at Processador_Completo.v(45): object "ac" differs only in case from object "AC" in the same scope File: D:/Mazinho/Eletronica Digital/Harvard_Processor/Quartus/Processador_Completo.v Line: 45
+Info (10281): Verilog HDL Declaration information at Processador_Completo.v(42): object "mbr" differs only in case from object "MBR" in the same scope File: D:/Mazinho/Eletronica Digital/Harvard_Processor/Quartus/Processador_Completo.v Line: 42
+Info (10281): Verilog HDL Declaration information at Processador_Completo.v(41): object "mar" differs only in case from object "MAR" in the same scope File: D:/Mazinho/Eletronica Digital/Harvard_Processor/Quartus/Processador_Completo.v Line: 41
+Warning (10273): Verilog HDL warning at ir.v(15): extended using "x" or "z" File: D:/Mazinho/Eletronica Digital/Harvard_Processor/Quartus/ir.v Line: 15
+Warning (10273): Verilog HDL warning at ac.v(8): extended using "x" or "z" File: D:/Mazinho/Eletronica Digital/Harvard_Processor/Quartus/ac.v Line: 8
+Warning (10273): Verilog HDL warning at mbr.v(9): extended using "x" or "z" File: D:/Mazinho/Eletronica Digital/Harvard_Processor/Quartus/mbr.v Line: 9
+Warning (10273): Verilog HDL warning at ULA.v(32): extended using "x" or "z" File: D:/Mazinho/Eletronica Digital/Harvard_Processor/Quartus/ULA.v Line: 32

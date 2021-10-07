@@ -1,0 +1,12 @@
+module ac (out_ac_u, out_ac_b, ac_re, ac_wr, bus);
+	output out_ac_u, out_ac_b;
+	input ac_re, ac_wr, bus;
+	reg valor;
+	always @ (*)
+	out_ac_b = z;
+	begin
+		if (ac_wr) valor = bus;
+		if (ac_re) out_ac_b = valor;
+		out_ac_u = valor;
+	end
+endmodule

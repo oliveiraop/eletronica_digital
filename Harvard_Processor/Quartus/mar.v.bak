@@ -1,0 +1,10 @@
+module mar (out_mar, mar_re, mar_wr, bus);
+	output out_mar;
+	input mar_re, mar_wr, bus;
+	reg valor;
+	always @ (*)
+	begin
+		if (mar_wr) valor = bus;
+		if (mar_re) out_mar = valor;
+	end
+endmodule

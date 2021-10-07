@@ -1,0 +1,202 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Harvard_Processor/Model Ula
+vac
+Z0 !s110 1532983452
+!i10b 1
+!s100 H2f6`z58kegT7i^dkcQjJ2
+IkL26jFAk[B9JDPF[g5jhi1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Harvard_Processor/ModelSim
+w1532896344
+8D:/Harvard_Processor/ModelSim/ac.v
+FD:/Harvard_Processor/ModelSim/ac.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1532983452.000000
+!s107 D:/Harvard_Processor/ModelSim/ac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Harvard_Processor/ModelSim/ac.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vHarvard_Processor
+!s110 1532984708
+!i10b 1
+!s100 MZ@ah1=2L5fDRcalgah4Q1
+I^?mD@DO]_JYJSE0knN[GH1
+R1
+R2
+w1532984704
+8D:/Harvard_Processor/ModelSim/Harvard_Processor.v
+FD:/Harvard_Processor/ModelSim/Harvard_Processor.v
+L0 20
+R3
+r1
+!s85 0
+31
+!s108 1532984708.000000
+!s107 D:/Harvard_Processor/ModelSim/Harvard_Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Harvard_Processor/ModelSim/Harvard_Processor.v|
+!i113 1
+R5
+R6
+n@harvard_@processor
+vHarvard_Processor_tb
+!s110 1532986506
+!i10b 1
+!s100 i2BiQL6a64Ie^o8PzQ?7:2
+IO2=IRLmO[GEB1<d?Xno>k0
+R1
+R2
+w1532986502
+8D:/Harvard_Processor/ModelSim/Harvard_Processor_tb.v
+FD:/Harvard_Processor/ModelSim/Harvard_Processor_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1532986506.000000
+!s107 D:/Harvard_Processor/ModelSim/Harvard_Processor_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Harvard_Processor/ModelSim/Harvard_Processor_tb.v|
+!i113 1
+R5
+R6
+n@harvard_@processor_tb
+vir
+R0
+!i10b 1
+!s100 g@;z>RZNeM?4[`dUYHBdn1
+I?d:=h5BDe;L96QFgKXib90
+R1
+R2
+w1532981955
+8D:/Harvard_Processor/ModelSim/ir.v
+FD:/Harvard_Processor/ModelSim/ir.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Harvard_Processor/ModelSim/ir.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Harvard_Processor/ModelSim/ir.v|
+!i113 1
+R5
+R6
+vmar
+Z7 !s110 1532983453
+!i10b 1
+!s100 YhLHm61OYWIYcokg3]bEA2
+IS>W?NU6P:7GXVMDNoA5L<3
+R1
+R2
+w1532376587
+8D:/Harvard_Processor/ModelSim/mar.v
+FD:/Harvard_Processor/ModelSim/mar.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1532983453.000000
+!s107 D:/Harvard_Processor/ModelSim/mar.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Harvard_Processor/ModelSim/mar.v|
+!i113 1
+R5
+R6
+vmbr
+R7
+!i10b 1
+!s100 eUPTXd>G[N4<:eI^P[Vz62
+ILEoc:LDW];D5@PhFcQ`<12
+R1
+R2
+w1532896363
+8D:/Harvard_Processor/ModelSim/mbr.v
+FD:/Harvard_Processor/ModelSim/mbr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Harvard_Processor/ModelSim/mbr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Harvard_Processor/ModelSim/mbr.v|
+!i113 1
+R5
+R6
+vpc
+R7
+!i10b 1
+!s100 2`JnLNEbefIT4o8_W;47I2
+IhVlT[LZRM5kGQmFWAHj6?0
+R1
+R2
+w1532379407
+8D:/Harvard_Processor/ModelSim/pc.v
+FD:/Harvard_Processor/ModelSim/pc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Harvard_Processor/ModelSim/pc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Harvard_Processor/ModelSim/pc.v|
+!i113 1
+R5
+R6
+vprocessador_fsm
+R7
+!i10b 1
+!s100 930l22hfn533UzdHdcokL3
+IkA@:TDP^W7dYEOU?N575L2
+R1
+R2
+w1532983357
+8D:/Harvard_Processor/ModelSim/processador_fsm.v
+FD:/Harvard_Processor/ModelSim/processador_fsm.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Harvard_Processor/ModelSim/processador_fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Harvard_Processor/ModelSim/processador_fsm.v|
+!i113 1
+R5
+R6
+vULA
+R0
+!i10b 1
+!s100 8SUFkz1=lMmIY9?YSaW7;3
+IMiY2ND0egCb<_BAL?FISe3
+R1
+R2
+w1532888497
+8D:/Harvard_Processor/ModelSim/ULA.v
+FD:/Harvard_Processor/ModelSim/ULA.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Harvard_Processor/ModelSim/ULA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Harvard_Processor/ModelSim/ULA.v|
+!i113 1
+R5
+R6
+n@u@l@a

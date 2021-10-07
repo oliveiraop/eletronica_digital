@@ -1,0 +1,11 @@
+module pc (out_pc, pc_re, pc_wr, pc_inicio, bus);
+	output out_pc;
+	input pc_re, pc_wr, pc_inicio, bus;
+	reg valor;
+	always @ (*)
+	begin
+		if (pc_inicio) out_pc=0;
+		if (pc_wr) valor=bus;
+		if (pc_re) out_pc=valor;
+	end
+endmodule

@@ -1,0 +1,79 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do Harvard_Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Harvard_Processor/Quartus {D:/Harvard_Processor/Quartus/ULA.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:58 on Jul 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Harvard_Processor/Quartus" D:/Harvard_Processor/Quartus/ULA.v 
+# -- Compiling module ULA
+# ** Warning: D:/Harvard_Processor/Quartus/ULA.v(24): (vlog-2182) 'resultInt' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	ULA
+# End time: 22:42:58 on Jul 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+vsim work.ULA
+# vsim work.ULA 
+# Start time: 22:43:01 on Jul 28,2018
+# Loading work.ULA
+add wave -position end  sim:/ULA/ula_sel
+add wave -position end  sim:/ULA/ula_re
+add wave -position end  sim:/ULA/mbr
+add wave -position end  sim:/ULA/ac
+add wave -position end  sim:/ULA/resultInt
+add wave -position end  sim:/ULA/result
+force -freeze sim:/ULA/ula_sel 0010 0
+force -freeze sim:/ULA/ula_re 1 0
+force -freeze sim:/ULA/mbr 32 0
+# Invalid binary digit: 3.
+# ** Error: (vsim-4011) Invalid force value: 32 0.
+# 
+force -freeze sim:/ULA/ac 44 0
+# Invalid binary digit: 4.
+# ** Error: (vsim-4011) Invalid force value: 44 0.
+# 
+run
+run
+run
+force -freeze sim:/ULA/mbr 1 0
+run
+force -freeze sim:/ULA/mbr 12 0
+# Invalid binary digit: 2.
+# ** Error: (vsim-4011) Invalid force value: 12 0.
+# 
+run
+force -freeze sim:/ULA/ac 1 0
+run
+run
+run
+run
+force -freeze sim:/ULA/ula_re 0 0
+run
+run
+run
+force -freeze sim:/ULA/ula_re 1 0
+run
+run
+run
+run
+run
+force -freeze sim:/ULA/ula_re 0 0
+run
+run
+run
+force -freeze sim:/ULA/ula_re 1 0
+run
+run
+run
+# End time: 22:47:24 on Jul 28,2018, Elapsed time: 0:04:23
+# Errors: 3, Warnings: 0
